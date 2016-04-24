@@ -1,4 +1,5 @@
 ## Download dataset from : https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip 
+## Read from corresponding folder
 
 data <- read.csv("/Users/carlamusi/Desktop/Data Science/4. Exploratory Data Analysis/Week 1/04 Course Project 1 /household_power_consumption.txt", header = TRUE, sep = ';', na.strings = "?", stringsAsFactors = FALSE)
 
